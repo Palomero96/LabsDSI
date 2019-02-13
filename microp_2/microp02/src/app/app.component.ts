@@ -17,7 +17,7 @@ export class AppComponent {
   new Coche('renault','megane',new Date(2006,12,23),new
 Date(2018,2,1),3500,'coche03.jpg',EstadoCoche.MALO),
  new Coche('tesla','model 3',new Date(2006,12,23),new
-Date(2018,2,1),4000,'',EstadoCoche.BUENO)];
+Date(2018,2,1),4000,'coche04.jpg',EstadoCoche.BUENO)];
  public filtro:string='';
 public getFiltrados():Array<number>{
  var filtrados:Array<number>=[];
