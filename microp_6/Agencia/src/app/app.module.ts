@@ -5,6 +5,11 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { VuelosPage } from '../pages/vuelos/vuelos';
+import { ReservasPage } from '../pages/reservas/reservas';
+import { EmbarquePage } from '../pages/embarque/embarque';
+import { AcercaDePage } from '../pages/acerca-de/acerca-de';
+import { PaginaWebPage } from '../pages/pagina-web/pagina-web';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -13,7 +18,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    VuelosPage,
+    ReservasPage,
+    EmbarquePage,
+    AcercaDePage,
+    PaginaWebPage
+
   ],
   imports: [
     BrowserModule,
@@ -23,7 +34,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    VuelosPage,
+    ReservasPage,
+    EmbarquePage,
+    AcercaDePage,
+    PaginaWebPage
   ],
   providers: [
     StatusBar,
